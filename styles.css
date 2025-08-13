@@ -1,0 +1,39 @@
+/* Global reset for consistent box model behavior */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  margin: 0;
+  color: #333;
+}
+
+/* Header and Footer */
+header, footer {
+  background: #004080;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Main Card Styling */
+.card {
+  background: white;
+  border: 2px solid #ccc;
+  padding: 1rem;          /* Inner space */
+  margin: 1rem auto;      /* Outer space */
+  max-width: 600px;
+  border-radius: 8px;
+}
+
+.card.special {
+  background: #f0f8ff;
+  border: 3px dashed #004080;
+}
+
+/* Text styling */
+h1, h2 {
+  margin-top: 0; /* Remove extra space at the top */
+}
